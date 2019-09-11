@@ -11,7 +11,7 @@ const useDarkMode = () => {
     } else {
       body.classList.remove('dark-mode');
     }
-  }, []);
+  }, [darkness]);
   return [darkness, setdarkness];
 };
 
